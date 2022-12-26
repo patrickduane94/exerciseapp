@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: darkslategray;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+    background-color: floralwhite;
+    text-align: center;
+    padding: 0;
+}
+
+header {
+    font-weight: bolder;
+    color: rgb(244, 209, 144);
+    border:0px;
+    background-color:rgb(54, 36, 23);
+    padding-top: 15px;
+    font-size:large;
+    height:auto;
+}
+
+main {
+   background-color: floralwhite;
+   color: darkslategray;
+   border:0cm;
+   margin-top: 20px;
+   text-align: center;
+}
+
+nav {
+    font-size: 25px;
+    font-weight:bold;
+    width: 100%;
+    text-align: center;
+}
+
+nav a{
+    color: floralwhite;
+}
+nav a:hover {
+    font-size: 25.5px;
+}
+
+tr, td, th {
+    border: 1px solid brown;
+    padding: 5px;
+}
+
+td{
+    background-color: white;
+}
+
+th{
+    background-color:rgb(67, 208, 255);
+}
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 0px;
+}
+select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 0px;
+}
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 0px;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 1px;
+}
+button:hover {
+    cursor: pointer;
+}
+
+table.center{
+    margin: auto;
+    border-collapse: collapse;
+    width: 35%;
+}
+
+img {
+    width: 60px;
+}
+
+caption{
+    padding: 5px;
+}
+
+div#navigation{
+    padding-top: 20px;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+input#search{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+label{
+    padding-left: 3px;
+}
